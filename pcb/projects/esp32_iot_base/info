@@ -1,0 +1,280 @@
+{
+  "uuid": "a849c583560c822289f4052f52f79bb3",
+  "path": "Offline/esp32_iot_base",
+  "name": "esp32_iot_base",
+  "content": "",
+  "created_at": "2022-10-20 16:06:10",
+  "updated_at": "2023-04-26 18:54:55",
+  "stick": "",
+  "documents": [
+    {
+      "uuid": "3b69fd4ef49a3213699405c9e8936360",
+      "title": "sheet_1",
+      "description": "",
+      "docType": "1",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "429d4089b55d4befa0e9687531a5be15": 1,
+        "b82150387a2041b4afd55b90c79c5923": 4,
+        "e33cc1be9d5e4d929dda60b4eb023d72": 1,
+        "ed9eb2faffb34286820a54a14e9e9e24": 6,
+        "e545f26e87c74952857381bd0bff848e": 2,
+        "66a9662b7911442a9b543ae8edfc6482": 1,
+        "6f9af7e4e0ad43b38a49053171beb1c4": 2,
+        "757d0a6983ac4eee9030f5892bfbf6a1": 1,
+        "6a83314d8c8f494d808b253055c82258": 2,
+        "1b595f0ba845438892e8d02e16de6e7f": 1,
+        "09728ed1db5d47ea882eee2a04f835b9": 1,
+        "b5893ce169de436e966f7e3ed440e04b": 1,
+        "349c1dcf499946f49ea229882400cc3e": 3
+      },
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ],
+        [
+          "0.1u",
+          4,
+          "C0805",
+          "C1,C2,C3,C4",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "2ee8eb13a0124a108e622ce40c0c25a8",
+            "uuid": "b82150387a2041b4afd55b90c79c5923"
+          }
+        ],
+        [
+          "1u",
+          2,
+          "CASE-A_3216",
+          "C5,C6",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "ce25118ef0b041b8a773e71ca28ae65d",
+            "uuid": "e545f26e87c74952857381bd0bff848e"
+          }
+        ],
+        [
+          "CI1106M1HR0-NH",
+          1,
+          "CONN-SMD_6P-P1.00_CVILUX_CI1106M1HR0-NH",
+          "CN2",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C918456",
+            "BOM_Manufacturer": "Cvilux(瀚荃)",
+            "BOM_Manufacturer Part": "CI1106M1HR0-NH",
+            "puuid": "f6dbca0088e246eaba775e1509767d22",
+            "uuid": "09728ed1db5d47ea882eee2a04f835b9"
+          }
+        ],
+        [
+          "1N4007W",
+          1,
+          "SOD-123_L2.8-W1.8-LS3.7-RD",
+          "D1",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C328592",
+            "BOM_Manufacturer": "BLUE ROCKET",
+            "BOM_Manufacturer Part": "1N4007W",
+            "puuid": "60a676d313ae48718a81c380b73dfe4f",
+            "uuid": "e33cc1be9d5e4d929dda60b4eb023d72"
+          }
+        ],
+        [
+          "BC817-16,215",
+          2,
+          "SOT-23-3_L2.9-W1.6-P1.90-LS2.8-BR",
+          "Q3,Q4",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "Nexperia",
+            "BOM_Manufacturer Part": "BC817-16,215",
+            "BOM_Supplier Part": "C126908",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "b3b82869fa924bae820e3a6cfb44d689",
+            "uuid": "6f9af7e4e0ad43b38a49053171beb1c4"
+          }
+        ],
+        [
+          "10kΩ",
+          4,
+          "R0805",
+          "R2,R3,R4,R5",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "BOM_Manufacturer Part": "",
+            "BOM_Manufacturer": "",
+            "puuid": "b60f399a7a7e41848b2be1eb49c79141",
+            "uuid": "ed9eb2faffb34286820a54a14e9e9e24"
+          }
+        ],
+        [
+          "100",
+          2,
+          "R0805",
+          "R6,R7",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "b60f399a7a7e41848b2be1eb49c79141",
+            "uuid": "ed9eb2faffb34286820a54a14e9e9e24"
+          }
+        ],
+        [
+          "OS102011MA1QN1",
+          1,
+          "SW-TH_OS102011MA1QN1",
+          "SW0",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C226259",
+            "BOM_Manufacturer": "C&K",
+            "BOM_Manufacturer Part": "OS102011MA1QN1",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "08afc252c94348cd9945ff4bc94daeec",
+            "uuid": "757d0a6983ac4eee9030f5892bfbf6a1"
+          }
+        ],
+        [
+          "KAN0647-0342B-B",
+          2,
+          "KEY-SMD_4P-L6.6-W6.1-P4.50-L8.4",
+          "SW1,SW2",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C231694",
+            "BOM_Manufacturer": "GANGYUAN",
+            "BOM_Manufacturer Part": "KAN0647-0342B-B",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "8d60c2efd90d4d40b906826c7c935693",
+            "uuid": "6a83314d8c8f494d808b253055c82258"
+          }
+        ],
+        [
+          "ESP-WROOM-32D",
+          1,
+          "ESP32_DOUBLE_IC",
+          "U1",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C2894836",
+            "BOM_Manufacturer Part": "ESP-WROOM-32D",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "a4bef0dc1ef740d8abaca2a7ee97d86d",
+            "uuid": "429d4089b55d4befa0e9687531a5be15"
+          }
+        ],
+        [
+          "pbd2-6",
+          1,
+          "PBD2-6",
+          "U2",
+          {
+            "BOM_Manufacturer": "Ningbo",
+            "BOM_Manufacturer Part": "DS1026-06-2*3S8BV",
+            "BOM_Supplier": "",
+            "BOM_Supplier Part": "DS-1026-06 - 2X3",
+            "puuid": "21c158819d4f47ec8d30d18d0e3646cc",
+            "uuid": "1b595f0ba845438892e8d02e16de6e7f"
+          }
+        ],
+        [
+          "PBD2-10",
+          3,
+          "PBD2-10",
+          "U3,U4,U7",
+          {
+            "BOM_Manufacturer": "",
+            "BOM_Manufacturer Part": "",
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "puuid": "0ab36e80c09f450faa0faf65d007963f",
+            "uuid": "349c1dcf499946f49ea229882400cc3e"
+          }
+        ],
+        [
+          "MCP73812T-420IOT",
+          1,
+          "SOT23-5",
+          "U5",
+          {
+            "BOM_Manufacturer Part": "",
+            "BOM_Supplier": "",
+            "BOM_Supplier Part": "",
+            "BOM_Manufacturer": "",
+            "puuid": "b782a5f7814241a6a4cebbb66662c83e",
+            "uuid": "b5893ce169de436e966f7e3ed440e04b"
+          }
+        ],
+        [
+          "AMS1117A-3.3V",
+          1,
+          "SOT-223-3_L6.5-W3.4-P2.30-LS7.0-BR",
+          "U6",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C2984862",
+            "BOM_Manufacturer": "HX(恒佳兴)",
+            "BOM_Manufacturer Part": "AMS1117A-3.3V",
+            "puuid": "02ae667aca734971be8a5f58143dd564",
+            "uuid": "66a9662b7911442a9b543ae8edfc6482"
+          }
+        ]
+      ],
+      "updateTime": 1682483777,
+      "createTime": 1666271170,
+      "histories": [],
+      "created_at": "2022-10-20 16:06:10",
+      "updated_at": "2023-04-26 07:36:17"
+    },
+    {
+      "uuid": "fd480f49711d4c758f0804529f7d4195",
+      "puuid": "a849c583560c822289f4052f52f79bb3",
+      "title": "PCB_sheet_1",
+      "filename": "PCB_sheet_1.json",
+      "description": "",
+      "docType": "3",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "21c158819d4f47ec8d30d18d0e3646cc": 1,
+        "8d60c2efd90d4d40b906826c7c935693": 2,
+        "b3b82869fa924bae820e3a6cfb44d689": 2,
+        "0ab36e80c09f450faa0faf65d007963f": 3,
+        "2ee8eb13a0124a108e622ce40c0c25a8": 4,
+        "b60f399a7a7e41848b2be1eb49c79141": 6,
+        "a4bef0dc1ef740d8abaca2a7ee97d86d": 1,
+        "08afc252c94348cd9945ff4bc94daeec": 1,
+        "b782a5f7814241a6a4cebbb66662c83e": 1,
+        "ce25118ef0b041b8a773e71ca28ae65d": 2,
+        "60a676d313ae48718a81c380b73dfe4f": 1,
+        "02ae667aca734971be8a5f58143dd564": 1,
+        "f6dbca0088e246eaba775e1509767d22": 1
+      },
+      "BOM": [],
+      "updateTime": 1682524495,
+      "createTime": 1666271200,
+      "histories": [],
+      "created_at": "2022-10-20 16:06:40",
+      "updated_at": "2023-04-26 18:54:55"
+    }
+  ],
+  "sort": [],
+  "title": "esp32_iot_base",
+  "foldername": "esp32_iot_base",
+  "schfilename": "esp32_iot_base.json",
+  "schfilemtime": 1682483777942
+}
