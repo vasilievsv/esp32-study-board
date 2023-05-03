@@ -4,7 +4,7 @@
   "name": "esp32_iot_base",
   "content": "",
   "created_at": "2022-10-20 16:06:10",
-  "updated_at": "2023-04-26 18:54:55",
+  "updated_at": "2023-05-03 09:26:59",
   "stick": "",
   "documents": [
     {
@@ -25,9 +25,8 @@
         "757d0a6983ac4eee9030f5892bfbf6a1": 1,
         "6a83314d8c8f494d808b253055c82258": 2,
         "1b595f0ba845438892e8d02e16de6e7f": 1,
-        "09728ed1db5d47ea882eee2a04f835b9": 1,
-        "b5893ce169de436e966f7e3ed440e04b": 1,
-        "349c1dcf499946f49ea229882400cc3e": 3
+        "349c1dcf499946f49ea229882400cc3e": 3,
+        "3ec77201bbcd4ecd8722658d581a4e60": 1
       },
       "BOM": [
         [
@@ -64,20 +63,6 @@
           }
         ],
         [
-          "CI1106M1HR0-NH",
-          1,
-          "CONN-SMD_6P-P1.00_CVILUX_CI1106M1HR0-NH",
-          "CN2",
-          {
-            "BOM_Supplier": "LCSC",
-            "BOM_Supplier Part": "C918456",
-            "BOM_Manufacturer": "Cvilux(瀚荃)",
-            "BOM_Manufacturer Part": "CI1106M1HR0-NH",
-            "puuid": "f6dbca0088e246eaba775e1509767d22",
-            "uuid": "09728ed1db5d47ea882eee2a04f835b9"
-          }
-        ],
-        [
           "1N4007W",
           1,
           "SOD-123_L2.8-W1.8-LS3.7-RD",
@@ -89,6 +74,20 @@
             "BOM_Manufacturer Part": "1N4007W",
             "puuid": "60a676d313ae48718a81c380b73dfe4f",
             "uuid": "e33cc1be9d5e4d929dda60b4eb023d72"
+          }
+        ],
+        [
+          "HDR-F-2.54_1x2",
+          1,
+          "HDR-F-2.54_1X2",
+          "H1",
+          {
+            "BOM_Supplier Part": "C49661",
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "36b1306a115341f4b4d9407fb34974e0",
+            "uuid": "3ec77201bbcd4ecd8722658d581a4e60"
           }
         ],
         [
@@ -149,21 +148,6 @@
           }
         ],
         [
-          "KAN0647-0342B-B",
-          2,
-          "KEY-SMD_4P-L6.6-W6.1-P4.50-L8.4",
-          "SW1,SW2",
-          {
-            "BOM_Supplier": "LCSC",
-            "BOM_Supplier Part": "C231694",
-            "BOM_Manufacturer": "GANGYUAN",
-            "BOM_Manufacturer Part": "KAN0647-0342B-B",
-            "BOM_JLCPCB Part Class": "Extended Part",
-            "puuid": "8d60c2efd90d4d40b906826c7c935693",
-            "uuid": "6a83314d8c8f494d808b253055c82258"
-          }
-        ],
-        [
           "ESP-WROOM-32D",
           1,
           "ESP32_DOUBLE_IC",
@@ -206,20 +190,6 @@
           }
         ],
         [
-          "MCP73812T-420IOT",
-          1,
-          "SOT23-5",
-          "U5",
-          {
-            "BOM_Manufacturer Part": "",
-            "BOM_Supplier": "",
-            "BOM_Supplier Part": "",
-            "BOM_Manufacturer": "",
-            "puuid": "b782a5f7814241a6a4cebbb66662c83e",
-            "uuid": "b5893ce169de436e966f7e3ed440e04b"
-          }
-        ],
-        [
           "AMS1117A-3.3V",
           1,
           "SOT-223-3_L6.5-W3.4-P2.30-LS7.0-BR",
@@ -232,13 +202,28 @@
             "puuid": "02ae667aca734971be8a5f58143dd564",
             "uuid": "66a9662b7911442a9b543ae8edfc6482"
           }
+        ],
+        [
+          "KAN0647-0342B-B",
+          2,
+          "KEY-SMD_4P-L6.6-W6.1-P4.50-L8.4",
+          "_BOOT_,_EN_",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C231694",
+            "BOM_Manufacturer": "GANGYUAN",
+            "BOM_Manufacturer Part": "KAN0647-0342B-B",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "8d60c2efd90d4d40b906826c7c935693",
+            "uuid": "6a83314d8c8f494d808b253055c82258"
+          }
         ]
       ],
-      "updateTime": 1682483777,
+      "updateTime": 1683065939,
       "createTime": 1666271170,
       "histories": [],
       "created_at": "2022-10-20 16:06:10",
-      "updated_at": "2023-04-26 07:36:17"
+      "updated_at": "2023-05-03 01:18:59"
     },
     {
       "uuid": "fd480f49711d4c758f0804529f7d4195",
@@ -251,30 +236,29 @@
       "thumb": "/images/thumb-default.png",
       "components": {
         "21c158819d4f47ec8d30d18d0e3646cc": 1,
-        "8d60c2efd90d4d40b906826c7c935693": 2,
         "b3b82869fa924bae820e3a6cfb44d689": 2,
         "0ab36e80c09f450faa0faf65d007963f": 3,
         "2ee8eb13a0124a108e622ce40c0c25a8": 4,
         "b60f399a7a7e41848b2be1eb49c79141": 6,
+        "36b1306a115341f4b4d9407fb34974e0": 1,
         "a4bef0dc1ef740d8abaca2a7ee97d86d": 1,
         "08afc252c94348cd9945ff4bc94daeec": 1,
-        "b782a5f7814241a6a4cebbb66662c83e": 1,
         "ce25118ef0b041b8a773e71ca28ae65d": 2,
         "60a676d313ae48718a81c380b73dfe4f": 1,
         "02ae667aca734971be8a5f58143dd564": 1,
-        "f6dbca0088e246eaba775e1509767d22": 1
+        "8d60c2efd90d4d40b906826c7c935693": 2
       },
       "BOM": [],
-      "updateTime": 1682524495,
+      "updateTime": 1683095219,
       "createTime": 1666271200,
       "histories": [],
       "created_at": "2022-10-20 16:06:40",
-      "updated_at": "2023-04-26 18:54:55"
+      "updated_at": "2023-05-03 09:26:59"
     }
   ],
   "sort": [],
   "title": "esp32_iot_base",
   "foldername": "esp32_iot_base",
   "schfilename": "esp32_iot_base.json",
-  "schfilemtime": 1682483777942
+  "schfilemtime": 1683065939740
 }
