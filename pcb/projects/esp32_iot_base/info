@@ -4,7 +4,7 @@
   "name": "esp32_iot_base",
   "content": "",
   "created_at": "2022-10-20 16:06:10",
-  "updated_at": "2023-05-05 22:46:07",
+  "updated_at": "2023-05-08 00:22:46",
   "stick": "",
   "documents": [
     {
@@ -16,20 +16,22 @@
       "thumb": "/images/thumb-default.png",
       "components": {
         "429d4089b55d4befa0e9687531a5be15": 1,
-        "b82150387a2041b4afd55b90c79c5923": 4,
+        "b82150387a2041b4afd55b90c79c5923": 6,
         "e33cc1be9d5e4d929dda60b4eb023d72": 1,
-        "ed9eb2faffb34286820a54a14e9e9e24": 6,
+        "ed9eb2faffb34286820a54a14e9e9e24": 9,
         "e545f26e87c74952857381bd0bff848e": 2,
         "66a9662b7911442a9b543ae8edfc6482": 1,
         "6f9af7e4e0ad43b38a49053171beb1c4": 2,
         "757d0a6983ac4eee9030f5892bfbf6a1": 1,
         "6a83314d8c8f494d808b253055c82258": 2,
         "1b595f0ba845438892e8d02e16de6e7f": 1,
-        "3ec77201bbcd4ecd8722658d581a4e60": 1,
+        "3ec77201bbcd4ecd8722658d581a4e60": 4,
         "b21eb32995554ad4aa0546e820a652e2": 1,
         "5eb4cd1ec4404d00915969d20003c302": 1,
         "0e9a5701f1364fdfa3fa7cbac98e33a7": 1,
-        "a8d3ccdccb82409aba93a337e2d66519": 1
+        "a8d3ccdccb82409aba93a337e2d66519": 1,
+        "3adac0687b184795ac82a88d7030b579": 1,
+        "ba1f207f2c0447edbd5beb657b435022": 1
       },
       "BOM": [
         [
@@ -38,6 +40,20 @@
           "Package",
           "Components",
           "CustomPara"
+        ],
+        [
+          "HDR-F-2.54_1x2",
+          4,
+          "HDR-F-2.54_1X2",
+          "BAT,H1,IN,OUT",
+          {
+            "BOM_Supplier Part": "C49661",
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "36b1306a115341f4b4d9407fb34974e0",
+            "uuid": "3ec77201bbcd4ecd8722658d581a4e60"
+          }
         ],
         [
           "0.1u",
@@ -66,6 +82,32 @@
           }
         ],
         [
+          "10uF",
+          1,
+          "C0805",
+          "C7",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "2ee8eb13a0124a108e622ce40c0c25a8",
+            "uuid": "b82150387a2041b4afd55b90c79c5923"
+          }
+        ],
+        [
+          "100nf",
+          1,
+          "C0805",
+          "C8",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "2ee8eb13a0124a108e622ce40c0c25a8",
+            "uuid": "b82150387a2041b4afd55b90c79c5923"
+          }
+        ],
+        [
           "1N4007W",
           1,
           "SOD-123_L2.8-W1.8-LS3.7-RD",
@@ -80,17 +122,31 @@
           }
         ],
         [
-          "HDR-F-2.54_1x2",
+          "LED-0805_G",
           1,
-          "HDR-F-2.54_1X2",
-          "H1",
+          "LED0805_GREEN",
+          "LED1",
           {
-            "BOM_Supplier Part": "C49661",
-            "BOM_Supplier": "LCSC",
-            "BOM_Manufacturer": "",
-            "BOM_Manufacturer Part": "",
-            "puuid": "36b1306a115341f4b4d9407fb34974e0",
-            "uuid": "3ec77201bbcd4ecd8722658d581a4e60"
+            "BOM_Manufacturer": "国星光电",
+            "BOM_Manufacturer Part": "NCD0805G1",
+            "BOM_Supplier Part": "C84260",
+            "BOM_Supplier": "",
+            "puuid": "df7b9c1c92a741e3a4e90f224547567e",
+            "uuid": "ba1f207f2c0447edbd5beb657b435022"
+          }
+        ],
+        [
+          "LED-0805_R",
+          1,
+          "LED0805_RED",
+          "LED2",
+          {
+            "BOM_Manufacturer": "EVERLIGHT(台湾亿光)",
+            "BOM_Manufacturer Part": "17-21SURC/S530-A3/TR8",
+            "BOM_Supplier Part": "C72037",
+            "BOM_Supplier": "",
+            "puuid": "090b645653374cf992fd93fb559e27d2",
+            "uuid": "3adac0687b184795ac82a88d7030b579"
           }
         ],
         [
@@ -106,6 +162,19 @@
             "BOM_JLCPCB Part Class": "Extended Part",
             "puuid": "b3b82869fa924bae820e3a6cfb44d689",
             "uuid": "6f9af7e4e0ad43b38a49053171beb1c4"
+          }
+        ],
+        [
+          "1k",
+          2,
+          "R0805",
+          "R1,R11",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "b60f399a7a7e41848b2be1eb49c79141",
+            "uuid": "ed9eb2faffb34286820a54a14e9e9e24"
           }
         ],
         [
@@ -127,6 +196,19 @@
           2,
           "R0805",
           "R6,R7",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "b60f399a7a7e41848b2be1eb49c79141",
+            "uuid": "ed9eb2faffb34286820a54a14e9e9e24"
+          }
+        ],
+        [
+          "5k",
+          1,
+          "R0805",
+          "R10",
           {
             "BOM_Supplier Part": "",
             "BOM_Supplier": "",
@@ -265,11 +347,11 @@
           }
         ]
       ],
-      "updateTime": 1683247370,
+      "updateTime": 1683494566,
       "createTime": 1666271170,
       "histories": [],
       "created_at": "2022-10-20 16:06:10",
-      "updated_at": "2023-05-05 03:42:50"
+      "updated_at": "2023-05-08 00:22:46"
     },
     {
       "uuid": "fd480f49711d4c758f0804529f7d4195",
@@ -309,5 +391,5 @@
   "title": "esp32_iot_base",
   "foldername": "esp32_iot_base",
   "schfilename": "esp32_iot_base.json",
-  "schfilemtime": 1683247370608
+  "schfilemtime": 1683494566313
 }
