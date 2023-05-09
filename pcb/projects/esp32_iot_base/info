@@ -4,7 +4,7 @@
   "name": "esp32_iot_base",
   "content": "",
   "created_at": "2022-10-20 16:06:10",
-  "updated_at": "2023-05-09 01:52:25",
+  "updated_at": "2023-05-09 10:53:05",
   "stick": "",
   "documents": [
     {
@@ -25,11 +25,11 @@
         "757d0a6983ac4eee9030f5892bfbf6a1": 1,
         "6a83314d8c8f494d808b253055c82258": 2,
         "1b595f0ba845438892e8d02e16de6e7f": 1,
-        "3ec77201bbcd4ecd8722658d581a4e60": 1,
         "b21eb32995554ad4aa0546e820a652e2": 1,
         "3adac0687b184795ac82a88d7030b579": 1,
         "ba1f207f2c0447edbd5beb657b435022": 1,
-        "5eb4cd1ec4404d00915969d20003c302": 4
+        "5eb4cd1ec4404d00915969d20003c302": 4,
+        "a9aa2b14f188405792fa87ac344499a4": 1
       },
       "BOM": [
         [
@@ -40,17 +40,17 @@
           "CustomPara"
         ],
         [
-          "HDR-F-2.54_1x2",
+          "HDR-M-2.54_1x2",
           1,
-          "HDR-F-2.54_1X2",
+          "HDR-M-2.54_1X2",
           "BAT",
           {
-            "BOM_Supplier Part": "C49661",
+            "BOM_Supplier Part": "C124375",
             "BOM_Supplier": "LCSC",
             "BOM_Manufacturer": "",
             "BOM_Manufacturer Part": "",
-            "puuid": "36b1306a115341f4b4d9407fb34974e0",
-            "uuid": "3ec77201bbcd4ecd8722658d581a4e60"
+            "puuid": "70aa5812f21f4991bf427395d51849f4",
+            "uuid": "a9aa2b14f188405792fa87ac344499a4"
           }
         ],
         [
@@ -304,11 +304,11 @@
           }
         ]
       ],
-      "updateTime": 1683586107,
+      "updateTime": 1683617509,
       "createTime": 1666271170,
       "histories": [],
       "created_at": "2022-10-20 16:06:10",
-      "updated_at": "2023-05-09 01:48:27"
+      "updated_at": "2023-05-09 10:31:49"
     },
     {
       "uuid": "fd480f49711d4c758f0804529f7d4195",
@@ -320,8 +320,8 @@
       "master": "",
       "thumb": "/images/thumb-default.png",
       "components": {
+        "70aa5812f21f4991bf427395d51849f4": 1,
         "663706023c8042a8a3314725f71b2932": 4,
-        "36b1306a115341f4b4d9407fb34974e0": 1,
         "21c158819d4f47ec8d30d18d0e3646cc": 1,
         "b3b82869fa924bae820e3a6cfb44d689": 2,
         "b60f399a7a7e41848b2be1eb49c79141": 9,
@@ -337,16 +337,16 @@
         "090b645653374cf992fd93fb559e27d2": 1
       },
       "BOM": [],
-      "updateTime": 1683586345,
+      "updateTime": 1683618785,
       "createTime": 1666271200,
       "histories": [],
       "created_at": "2022-10-20 16:06:40",
-      "updated_at": "2023-05-09 01:52:25"
+      "updated_at": "2023-05-09 10:53:05"
     }
   ],
   "sort": [],
   "title": "esp32_iot_base",
   "foldername": "esp32_iot_base",
   "schfilename": "esp32_iot_base.json",
-  "schfilemtime": 1683586107631
+  "schfilemtime": 1683617509785
 }
