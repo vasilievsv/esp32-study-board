@@ -1,5 +1,6 @@
 {
   "a849c583560c822289f4052f52f79bb3": "esp32_iot_base",
   "3b69fd4ef49a3213699405c9e8936360": "esp32_iot_base\\esp32_iot_base.json?sheet_1",
-  "fd480f49711d4c758f0804529f7d4195": "esp32_iot_base\\PCB_sheet_1.json"
+  "fd480f49711d4c758f0804529f7d4195": "esp32_iot_base\\PCB_sheet_1.json",
+  "dbcd3595b07fc54ec7578d26ea00d01a": "esp32_iot_base\\NEW_PCB.json"
 }
