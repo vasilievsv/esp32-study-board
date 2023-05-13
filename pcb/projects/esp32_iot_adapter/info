@@ -1,0 +1,76 @@
+{
+  "uuid": "ec29f34b4a96f189106e2b44b7f53c06",
+  "path": "Offline/esp32_iot_adapter",
+  "name": "esp32_iot_adapter",
+  "content": "",
+  "created_at": "2023-05-13 07:44:46",
+  "updated_at": "2023-05-13 08:08:56",
+  "stick": "",
+  "documents": [
+    {
+      "uuid": "a07aadde145cdc846bd551c92320825d",
+      "title": "sheet_2",
+      "description": "",
+      "docType": "1",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "5eb4cd1ec4404d00915969d20003c302": 4
+      },
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ],
+        [
+          "PBD2-2x5",
+          4,
+          "PBD2-2X5",
+          "U3,U4,U7,U8",
+          {
+            "BOM_Manufacturer": "",
+            "BOM_Manufacturer Part": "",
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "puuid": "663706023c8042a8a3314725f71b2932",
+            "uuid": "5eb4cd1ec4404d00915969d20003c302"
+          }
+        ]
+      ],
+      "updateTime": 1683954280,
+      "createTime": 1683953132,
+      "histories": [],
+      "created_at": "2023-05-13 07:45:32",
+      "updated_at": "2023-05-13 08:04:40"
+    },
+    {
+      "uuid": "aa20e793f18ce80e66e99c65df163585",
+      "puuid": "a849c583560c822289f4052f52f79bb3",
+      "title": "PCB_sheet_2",
+      "filename": "PCB_sheet_2.json",
+      "description": "",
+      "docType": "3",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "663706023c8042a8a3314725f71b2932": 4
+      },
+      "BOM": [],
+      "updateTime": 1683954536,
+      "createTime": 1683953141,
+      "histories": [],
+      "created_at": "2023-05-13 07:45:41",
+      "updated_at": "2023-05-13 08:08:56"
+    }
+  ],
+  "sort": [
+    "a07aadde145cdc846bd551c92320825d"
+  ],
+  "title": "esp32_iot_adapter",
+  "foldername": "esp32_iot_adapter",
+  "schfilename": "esp32_iot_adapter.json",
+  "schfilemtime": 1683954280193
+}
