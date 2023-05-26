@@ -1,9 +1,8 @@
 {
   "ec29f34b4a96f189106e2b44b7f53c06": "esp32_iot_adapter",
-  "a07aadde145cdc846bd551c92320825d": "esp32_iot_adapter\\esp32_iot_adapter.json?sheet_2",
-  "aa20e793f18ce80e66e99c65df163585": "esp32_iot_adapter\\PCB_sheet_2.json",
+  "a07aadde145cdc846bd551c92320825d": "esp32_iot_adapter\\esp32_iot_adapter.json?sheet_iot_adapter",
+  "aa20e793f18ce80e66e99c65df163585": "esp32_iot_adapter\\pcb_iot_adapter.json",
   "a849c583560c822289f4052f52f79bb3": "esp32_iot_base",
-  "3b69fd4ef49a3213699405c9e8936360": "esp32_iot_base\\esp32_iot_base.json?sheet_1",
-  "fd480f49711d4c758f0804529f7d4195": "esp32_iot_base\\PCB_sheet_1.json",
-  "d5316ba962ee5203266bc3412467658c": "esp32_iot_base\\NEW_PCB.json"
+  "3b69fd4ef49a3213699405c9e8936360": "esp32_iot_base\\esp32_iot_base.json?sheet_iot_base",
+  "fd480f49711d4c758f0804529f7d4195": "esp32_iot_base\\pcb_iot_base.json"
 }
