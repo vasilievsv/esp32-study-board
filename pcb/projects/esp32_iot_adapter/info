@@ -4,7 +4,7 @@
   "name": "esp32_iot_adapter",
   "content": "",
   "created_at": "2023-05-13 07:44:46",
-  "updated_at": "2023-05-26 20:50:19",
+  "updated_at": "2023-05-29 10:28:31",
   "stick": "",
   "documents": [
     {
@@ -15,8 +15,7 @@
       "master": "",
       "thumb": "/images/thumb-default.png",
       "components": {
-        "5eb4cd1ec4404d00915969d20003c302": 4,
-        "e7ba1d795eb645a086f1e1976ad9b653": 2
+        "5eb4cd1ec4404d00915969d20003c302": 4
       },
       "BOM": [
         [
@@ -25,20 +24,6 @@
           "Package",
           "Components",
           "CustomPara"
-        ],
-        [
-          "HDR-F-2.54_2x5",
-          2,
-          "HDR-F-2.54_2X5",
-          "H1,H2",
-          {
-            "BOM_Supplier Part": "C30419",
-            "BOM_Supplier": "LCSC",
-            "BOM_Manufacturer": "",
-            "BOM_Manufacturer Part": "",
-            "puuid": "faab0b7de5874e2ebbcd4f1bff1dad29",
-            "uuid": "e7ba1d795eb645a086f1e1976ad9b653"
-          }
         ],
         [
           "PBD2-2x5",
@@ -55,11 +40,11 @@
           }
         ]
       ],
-      "updateTime": 1683957817,
+      "updateTime": 1685344201,
       "createTime": 1683953132,
       "histories": [],
       "created_at": "2023-05-13 07:45:32",
-      "updated_at": "2023-05-13 09:03:37"
+      "updated_at": "2023-05-29 10:10:01"
     },
     {
       "uuid": "aa20e793f18ce80e66e99c65df163585",
@@ -72,14 +57,14 @@
       "thumb": "/images/thumb-default.png",
       "components": {
         "663706023c8042a8a3314725f71b2932": 4,
-        "faab0b7de5874e2ebbcd4f1bff1dad29": 2
+        "55690668766641a1b11aca42b453d9fb": 1
       },
       "BOM": [],
-      "updateTime": 1683958831,
+      "updateTime": 1685345311,
       "createTime": 1683953141,
       "histories": [],
       "created_at": "2023-05-13 07:45:41",
-      "updated_at": "2023-05-13 09:20:31"
+      "updated_at": "2023-05-29 10:28:31"
     }
   ],
   "sort": [
@@ -88,5 +73,5 @@
   "title": "esp32_iot_adapter",
   "foldername": "esp32_iot_adapter",
   "schfilename": "esp32_iot_adapter.json",
-  "schfilemtime": 1685123405252
+  "schfilemtime": 1685344201421
 }
