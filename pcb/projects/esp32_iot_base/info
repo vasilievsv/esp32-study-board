@@ -4,7 +4,7 @@
   "name": "esp32_iot_base",
   "content": "",
   "created_at": "2022-10-20 16:06:10",
-  "updated_at": "2023-06-05 21:49:57",
+  "updated_at": "2023-06-06 17:54:28",
   "stick": "",
   "documents": [
     {
@@ -134,7 +134,7 @@
           }
         ],
         [
-          "BC817-16,215",
+          "BC817",
           2,
           "SOT-23-3_L2.9-W1.6-P1.90-LS2.8-BR",
           "Q3,Q4",
@@ -317,11 +317,11 @@
           }
         ]
       ],
-      "updateTime": 1685990997,
+      "updateTime": 1686063268,
       "createTime": 1666271170,
       "histories": [],
       "created_at": "2022-10-20 16:06:10",
-      "updated_at": "2023-06-05 21:49:57"
+      "updated_at": "2023-06-06 17:54:28"
     },
     {
       "uuid": "fd480f49711d4c758f0804529f7d4195",
@@ -363,5 +363,5 @@
   "title": "esp32_iot_base",
   "foldername": "esp32_iot_base",
   "schfilename": "esp32_iot_base.json",
-  "schfilemtime": 1685990997435
+  "schfilemtime": 1686063268545
 }
