@@ -1,3 +1,6 @@
 [submodule "ota-backend"]
 	path = ota-backend
 	url = https://github.com/vasilievsv/ota-backend
+[submodule "intercom"]
+	path = intercom
+	url = https://github.com/vasilievsv/intercom
