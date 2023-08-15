@@ -1,0 +1,3 @@
+[submodule "ota-backend"]
+	path = ota-backend
+	url = https://github.com/vasilievsv/ota-backend
