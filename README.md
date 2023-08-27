@@ -1,13 +1,10 @@
-# EasyEDA - esp32-study-board 
 
-![Image](./documentation/img/overview.png)
+![Image](./documentation/img/pic-1.png)
 
-## Схема
+![Image](./documentation/img/pic-2.png)
+
 ![Image](./documentation/img/final-circuit.png)
 
-## Настрока проекта в EasyEDA 
-Смена рабочей директории
+# EasyEDA - Смена директории
 ![Image](./documentation/img/eda-step-1.png)
-
-Директория для EasyEDA 
 ![Image](./documentation/img/eda-step-2.png)
